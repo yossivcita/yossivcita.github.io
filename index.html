@@ -1,14 +1,18 @@
 <html>  
 <head>  
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 </head>  
 <body>  
     <div id="demo">
         <input v-model="firstName">
         <input v-model="lastName">
         <div id="demo">{{ fullName }}</div>    
-        <iframe src='https://www.meet2know.com/login?sso=true'></iframe>
+        <iframe id='myframe'></iframe>
+        <!-- <iframe src='https://www.meet2know.com/login?sso=true'></iframe> -->
     </div>
 </body>  
 <script src="index.js"></script>    
