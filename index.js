@@ -12,6 +12,6 @@ var vm = new Vue({
   }
 })
 
-$( "#myframe" ).load( "ajax/test.html", function() {
+$( "#myframe" ).load( "https://www.meet2know.com/login?sso=true", function() {
   alert( "Load was performed." );
 });
