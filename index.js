@@ -12,20 +12,12 @@ var vm = new Vue({
   }
 })
 
-
-var request = new XMLHttpRequest();
-request.open('GET', 'https://www.meet2know.com/login?sso=true', true);
-request.onreadystatechange = () => {
-  if (request.readyState==4) {
-    alert("It worked!")
-    //If the expected response is text/plain
-    document.querySelector('iframe')[0]
-    .contentDocument.write(data)
-  }
-
-};
-request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-request.setRequestHeader("Connection", "close");
-request.send();
-
-  
+// axios.get('https://www.vcita.com/v/liwna9ofpyzzn2l0/online_scheduling?email=fucs%40gmail.com&amp;s=aHR0cHM6Ly9saXZlLnZjaXRhLmNvbS9zaXRlL2xpd25hOW9mcHl6em4ybDA%3D&amp;o=cHJvZmlsZV9wYWdl&amp;vitrage_iframe=true')
+//   .then(function (response) {
+//     console.log(response);
+//   })
+//   .catch(function (error) {
+//     console.log('error');
+//     console.log(error);
+//   });
+ 
