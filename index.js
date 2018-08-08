@@ -47,7 +47,7 @@ function makeCorsRequest() {
     $( "#myframe" ).load( text, function() {
       alert( "Load was performed." );
     });
-    alert('Response from CORS request to ' + url + ': ' + title);
+    alert('Response from CORS request to ' + url + ': ');
   };
 
   xhr.onerror = function() {
@@ -56,4 +56,6 @@ function makeCorsRequest() {
 
   xhr.send();
 }
+
+makeCorsRequest()
 
